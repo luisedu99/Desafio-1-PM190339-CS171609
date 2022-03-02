@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1) Pago neto de empleado"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1) Ecuación cuadratica"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1) Votación"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Button
+        android:id="@+id/btnExercise1"
+        android:layout_width="224dp"
+        android:layout_height="67dp"
+        android:text="Abrir"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="178dp"
+        android:background="@drawable/button_rounded"/>
+
+    <Button
+        android:id="@+id/btnExercise2"
+        android:layout_width="224dp"
+        android:layout_height="67dp"
+        android:text="Abrir"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="323dp"
+        android:background="@drawable/button_rounded"/>
+
+    <Button
+        android:id="@+id/btnExercise3"
+        android:layout_width="224dp"
+        android:layout_height="67dp"
+        android:text="Abrir"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="500dp"
+        android:background="@drawable/button_rounded"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
